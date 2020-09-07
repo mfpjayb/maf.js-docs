@@ -7,9 +7,12 @@
   - [Store](store.md)
 - Available Plugins
   - [Router](router.md)
-  - [Store](store.md)
   - [Navigate](navigate.md)
-
+  - [Store](store.md)
+- CLI (in progress)
+  - [Installation](/cli-installation.md)
+  - [Commands](/cli-commands.md)
 - Community (in progress)
   - [Forum](forum.md)
   - [Chat](chat.md)
+  - [Suggestions](suggestions.md)
