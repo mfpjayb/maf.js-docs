@@ -5,3 +5,11 @@
   - [Component](component.md)
   - [Router](router.md)
   - [Store](store.md)
+- Available Plugins
+  - [Router](router.md)
+  - [Store](store.md)
+  - [Navigate](navigate.md)
+
+- Community (in progress)
+  - [Forum](forum.md)
+  - [Chat](chat.md)
