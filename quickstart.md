@@ -1,11 +1,11 @@
 # Quick start
 
 There are many ways to setup a Maf.js project.
-One way is to use `maf.js-cli` but the easiest way is to clone the starter app from [GitHub]('https://github.com/mfpjayb/maf.js-starter-app').
+One way is to use the [CLI](cli-installation.md) but the easiest way is to clone the starter app from [GitHub](https://github.com/mfpjayb/maf.js-starter-app).
 
 ## Create an app
 
-Clone the starter app from [GitHub]('https://github.com/mfpjayb/maf.js-starter-app').
+Clone the starter app from [GitHub](https://github.com/mfpjayb/maf.js-starter-app).
 
 ```bash
 git clone https://github.com/mfpjayb/maf.js-starter-app.git maf.js-app
