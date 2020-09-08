@@ -15,3 +15,11 @@ Here's a list of available types for the generate command:
 | --- | --- |
 | component | Generate a component file. |
 | middleware | Generate a middleware file. |
+
+Here's an example on how to use the generate command:
+
+```bash
+maf generate component Sidebar
+```
+
+This will generate a component file in `src/Sidebar.js`.
