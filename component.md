@@ -97,7 +97,8 @@ Below are the available lifecyle hooks:
 | $onDestroy            | Triggers when the component's destruction process starts. |
 | $afterDestroy         | Triggers after the component's destruction process is done. |
 | $onPropsUpdated       | Triggers when props is changed from the parent component. |
-| $onChange             | Triggers when component's change detection is triggered. |
+| $onChange             | Triggers when component's change detection starts. |
+| $afterChange          | Triggers when component's change detection is done. |
 
 ## Conditional rendering
 
