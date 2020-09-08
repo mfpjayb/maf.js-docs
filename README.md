@@ -7,6 +7,8 @@ This framework in not using a virtual-dom,
 instead it attache a watcher to a binding and update it only when necessary.
 This feature is what makes it very fast and have a better client run-time performance and memory efficient.
 
+Official docs https://mfpjayb.github.io/maf.js-docs.
+
 ## Features
 
 * [Two way data binding](/component?id=data-binding)
