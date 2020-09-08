@@ -9,9 +9,9 @@
   - [Router](router.md)
   - [Navigate](navigate.md)
   - [Store](store.md)
-- CLI (in progress)
-  - [Installation](/cli-installation.md)
-  - [Commands](/cli-commands.md)
+- CLI
+  - [Installation](cli-installation.md)
+  - [Commands](cli-commands.md)
 - Community (in progress)
   - [Forum](forum.md)
   - [Chat](chat.md)

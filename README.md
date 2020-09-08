@@ -15,9 +15,9 @@ This feature is what makes it very fast and have a better client run-time perfor
 * [Event handling](/component?id=event-binding)
 * [State Management](/store)
 * [Router](/router)
-* Directives
-* Developer tools
-* Cli
+<!-- * Directives -->
+<!-- * Developer tools -->
+* [Cli](cli-installation.md)
 
 ## Contact us
 
