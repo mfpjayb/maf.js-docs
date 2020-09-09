@@ -17,7 +17,7 @@ Official docs https://mfpjayb.github.io/maf.js-docs.
 * [Event handling](/component?id=event-binding)
 * [State Management](/store)
 * [Router](/router)
-<!-- * Directives -->
+* [Directives](/component?id=custom-directives)
 <!-- * Developer tools -->
 * [Cli](cli-installation.md)
 

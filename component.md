@@ -246,4 +246,122 @@ export default class ChildComponent {
     }
 }
 ```
+## Custom Directives
+
+Custom directive let's us create our own directive that can be used inside our views.
+Directives are classes that inherits the `Directive` class of maf.js framework.
+
+#### Create a directive
+
+Here's an example on how to create a custom directive:
+
+```javascript
+// ./Color.directive.js
+import { Directive } from 'maf.js';
+
+export default class Color extends Directive {
+    constructor(props) {
+        super(props); // super with props argument is required in a constructor
+    }
+
+    $onInit() {
+        this.changeColor();
+    }
+
+    $onPropsUpdated() {
+        this.changeColor();
+    }
+
+    changeColor() {
+        this.element.style.color = this.$props.color;
+    }
+}
+```
+
+The sample code above is a directive to change the text color of an element.
+
+?> **Note**: if constructor is called, a `super` call expression with `props` argument is require.
+
+#### Register a directive
+
+Directive needs to be registered in the module before we can use it.
+
+Here's an example on how to register a directive:
+
+```javascript
+import { Module } from 'maf.js';
+import Color from './Color.directive';
+
+const module = new Module({
+    ...
+});
+
+module.directive(Color, {});
+```
+
+The `directive` method in module accepts two arguments.
+First is the directive itself and second is an optional argument which is a data for the directive.
+The data is accessable inside the constructor for the directive.
+
+Here's an example on how to access the data inside the directive:
+
+```javascript
+export default class Color extends Directive {
+    constructor(props) {
+        super(props);
+        this.directiveData = props.data.module._directivesData.color;
+    }
+}
+```
+
+#### Using the directive
+
+Custom directive uses the namespace `directive:` or `d:` in view followed by the class name of the directive with the first letter in lower case.
+
+Example: `SampleDirective` will be called as `d:sampleDirective`.
+
+
+Here's an example on how to use the `Color` directive created above:
+
+```javascript
+<template>
+    <div>
+        <h1 d:color={this.color}>Change My Color</h1>
+        <button on:click={this.changeColor}>Change Color<button>
+    </div>
+</template>
+
+export default class App {
+    constructor() {
+        this.color = {
+            color: 'green'
+        };
+    }
+
+    changeColor() {
+        this.color = {
+            color: 'red'
+        };
+    }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
