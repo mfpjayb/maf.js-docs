@@ -32,7 +32,10 @@ However, mentaining the code and develop new features requires some financial ba
 You can support the development of maf.js via the following methods:
 
 #### One-time donation
-#### Recurring donations
+
+[<img src="./assets/paypal.png" alt="Paypal" style="width: 200px;" />](https://www.paypal.com/paypalme/dariusbualan)
+
+<!-- #### Recurring donations -->
 
 ## License
 
