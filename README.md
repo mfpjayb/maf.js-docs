@@ -40,3 +40,5 @@ You can support the development of maf.js via the following methods:
 ## License
 
 Licensed under the [MIT License](LICENSE).
+
+Copyright (c) 2020 Darius Bualan Jr.
