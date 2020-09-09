@@ -15,4 +15,3 @@
 - Community (in progress)
   - [Forum](forum.md)
   - [Chat](chat.md)
-  - [Suggestions](suggestions.md)
