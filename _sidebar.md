@@ -1,5 +1,5 @@
 - Getting started
-  - [Quick start](quickstart.md)
+  - [Quick start](quick-start.md)
 - Main Concept
   - [Module](module.md)
   - [Component](component.md)

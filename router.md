@@ -55,9 +55,9 @@ module.mount('#app', true);
 
 ## Dynamic route matching
 
-Dynamic route matching is a way to match a route path sigment into its matching browser url pathname sigment.
-A dynamic sigment is denoted by a colon `:` followed by the sigment name. ex. `/:userId`.
-The value of the dynamic sigments is accessible in it's component only using `this.$router.params()`.
+Dynamic route matching is a way to match a route path segment into its matching browser url pathname segment.
+A dynamic segment is denoted by a colon `:` followed by the segment name. ex. `/:userId`.
+The value of the dynamic segments is accessible in it's component only using `this.$router.params()`.
 
 Here's a table of dynamic routes and its corresponding values in `this.$router.params()`:
 

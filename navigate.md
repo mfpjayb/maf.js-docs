@@ -4,7 +4,7 @@ Navigate allows us to redirect to a route programmatically.
 
 ## Register the plugin
 
-Navigate plugin needs to be registerd in a module before we can use it.
+Navigate plugin needs to be registered in a module before we can use it.
 
 Here's an example on how to register this plugin:
 
@@ -19,9 +19,9 @@ module.plugin(Navigate);
 ...
 ```
 
-## Programmatically navitate
+## Programmatically navigate
 
-Here's an example on how to naviagate to a route programmatically:
+Here's an example on how to navigate to a route programmatically:
 
 ```javascript
 <template>
@@ -31,7 +31,7 @@ Here's an example on how to naviagate to a route programmatically:
 export default class SampleComponent {
     btnClick() {
         ...
-        this.$naviagate('/route/path');
+        this.$navigate('/route/path');
     }
 }
 ```

@@ -95,4 +95,4 @@ export default class SampleComponent {
 }
 ```
 
-?> **Note**: watchers are automatically unwatch when the component is destroyed.
+?> **Note**: watchers are automatically un-watch when the component is destroyed.

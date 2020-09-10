@@ -16,7 +16,7 @@ After cloning the repository, change directory into the starter project
 cd maf.js-app
 ```
 
-then install the dependecies
+then install the dependencies
 
 ```bash
 npm install

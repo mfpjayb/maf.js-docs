@@ -2,7 +2,7 @@
 
 Components are the most basic building block of an application.
 It is composed of view and logic of a component and in the future a scoped style will be added.
-It is recommended for components to have a single responsibility to make it mentainable and more reusable.
+It is recommended for components to have a single responsibility to make it maintainable and more reusable.
 
 ## Structure
 
@@ -29,7 +29,7 @@ Data binding is a way to synchronize the data from logic to view and vise versa.
 
 #### Attribute binding
 
-Here is an exmple on how to bind a property from the logic into an attribute of view:
+Here is an example on how to bind a property from the logic into an attribute of view:
 
 ```javascript
 <template>
@@ -84,9 +84,9 @@ Here is a list of available events from [w3schools.com](https://www.w3schools.co
 
 ## Hooks
 
-Hooks are functions that lets you run a block of codes when your component triggers a lifecyle event.
+Hooks are functions that lets you run a block of codes when your component triggers a lifecycle event.
 
-Below are the available lifecyle hooks:
+Below are the available lifecycle hooks:
 
 | Hooks                 | |
 | ---                   | --- |
@@ -103,7 +103,7 @@ Below are the available lifecyle hooks:
 ## Conditional rendering
 
 Conditional rendering is used to conditionally render an element in the dom.
-It uses the `view:if` directtive which removes an element from the dom if the value is a falsy and append the element if otherwise.
+It uses the `view:if` directive which removes an element from the dom if the value is a falsy and append the element if otherwise.
 
 Here's an example on how to use conditional rendering:
 
@@ -301,7 +301,7 @@ module.directive(Color, {});
 
 The `directive` method in module accepts two arguments.
 First is the directive itself and second is an optional argument which is a data for the directive.
-The data is accessable inside the constructor for the directive.
+The data is accessible inside the constructor for the directive.
 
 Here's an example on how to access the data inside the directive:
 

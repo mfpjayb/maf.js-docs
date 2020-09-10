@@ -1,7 +1,7 @@
 # MAF.JS
 
-Maf.js is a javascript framework for building web applicaitons.
-It makes building an interactive UI simeple but powerful.
+Maf.js is a javascript framework for building web applications.
+It makes building an interactive UI simple but powerful.
 This framework is built to be simple and easy to understand for developers.
 It is not using a virtual dom,
 instead it will attache a watcher to a bindings and update it only when necessary.
@@ -28,7 +28,7 @@ You can contact the team by sending us an email in [mfpjayb@gmail.com](mailto:mf
 ## Support us
 
 Maf.js is licensed with an MIT license and it is completely free to use software.
-However, mentaining the code and develop new features requires some financial backing.
+However, maintaining the code and develop new features requires some financial backing.
 You can support the development of maf.js via the following methods:
 
 #### One-time donation
