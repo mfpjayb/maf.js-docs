@@ -346,6 +346,43 @@ export default class App {
 }
 ```
 
+## View content
+
+View content let's us display content from the parent component into the child component's view.
+
+Here's an example on how to use view content:
+
+#### Parent component
+
+```javascript
+// ./Parent.js
+import Child from './Child';
+
+<template>
+    <div>
+        <Child>
+            <h1>I am the view content.</h1>
+        </Child>
+    </div>
+</template>
+
+export default class Parent {}
+```
+
+#### Child component
+
+```javascript
+// ./Child.js
+
+<template>
+    <view-content></view-content>
+</template>
+
+export default class Child {}
+```
+In the example above,
+the `<h1>I am the view content.</h1>` element which is inside the `<Child>...</Child>`
+component tags will be displayed in the child component's view where the `<view-content></view-content>` tag is located.
 
 
 
