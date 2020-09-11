@@ -1,11 +1,11 @@
 # Commands
 
-Here is a list of available commands for maf.js cli:
+Here is a list of available commands for vermillion cli:
 
 | Command | Syntax | Description |
 | --- | --- | --- |
-| new | `maf new <project_name>` | Generate a new maf.js application. |
-| generate| `maf generate <type> <name>` | Generate a maf.js file based on the given type and name. See [generate types](/cli-commands?id=generate) section for more info. |
+| new | `vm new <project_name>` | Generate a new vermillion application. |
+| generate| `vm generate <type> <name>` | Generate a vermillion file based on the given type and name. See [generate types](/cli-commands?id=generate) section for more info. |
 
 ## Generate types
 
@@ -19,7 +19,7 @@ Here's a list of available types for the generate command:
 Here's an example on how to use the generate command:
 
 ```bash
-maf generate component Sidebar
+vm generate component Sidebar
 ```
 
 This will generate a component file in `src/Sidebar.js`.

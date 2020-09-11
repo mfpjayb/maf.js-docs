@@ -9,7 +9,7 @@ Navigate plugin needs to be registered in a module before we can use it.
 Here's an example on how to register this plugin:
 
 ```javascript
-import { Module, Navigate } from 'maf.js';
+import { Module, Navigate } from 'vermillion';
 
 const module = new Module({
     ...

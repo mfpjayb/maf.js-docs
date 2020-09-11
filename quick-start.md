@@ -1,19 +1,19 @@
 # Quick start
 
-There are many ways to setup a Maf.js project.
-One way is to use the [CLI](cli-installation.md) but the easiest way is to clone the starter app from [GitHub](https://github.com/mfpjayb/maf.js-starter-app).
+There are many ways to setup a vermillion project.
+One way is to use the [CLI](cli-installation.md) but the easiest way is to clone the starter app from [GitHub](https://github.com/mfpjayb/vermillion-starter-app).
 
 ## Create an app
 
-Clone the starter app from [GitHub](https://github.com/mfpjayb/maf.js-starter-app).
+Clone the starter app from [GitHub](https://github.com/mfpjayb/vermillion-starter-app).
 
 ```bash
-git clone https://github.com/mfpjayb/maf.js-starter-app.git maf.js-app
+git clone https://github.com/mfpjayb/vermillion-starter-app.git vm-app
 ```
 After cloning the repository, change directory into the starter project
 
 ```bash
-cd maf.js-app
+cd vm-app
 ```
 
 then install the dependencies

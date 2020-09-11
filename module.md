@@ -8,7 +8,7 @@ This is a way to group components, plugins and other part of application that ar
 Every module has a root component which will be displayed when a module is moounted on the dom tree.
 
 ```javascript
-import { Module } from 'maf.js';
+import { Module } from 'vermillion';
 import App from './App';
 
 new Module({
@@ -23,7 +23,7 @@ In this example, `App` is the root component.
 Module must be mounted to the dom tee first before we can interact with its components.
 
 ```javascript
-import { Module } from 'maf.js';
+import { Module } from 'vermillion';
 import App from './App';
 
 const module = new Module({
@@ -42,7 +42,7 @@ Including a plugin in a module must be called first before the module is mounted
 Here's an example on how to use a plugin:
 
 ```javascript
-import { Module, Store } from 'maf.js';
+import { Module, Store } from 'vermillion';
 import App from './App';
 
 const module = new Module({

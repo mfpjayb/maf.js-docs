@@ -1,6 +1,6 @@
 # Store
 
-Store is a plugin and a state management built for `maf.js`.
+Store is a plugin and a state management built for `vermillion`.
 It is accessible inside a component using `this.$store`.
 
 ## Register the plugin
@@ -10,7 +10,7 @@ Store needs to be registered in a module before we can use it.
 Here's an example on how to register the store in a module:
 
 ```javascript
-import { Module, Store } from 'maf.js';
+import { Module, Store } from 'vermillion';
 
 const module = new Module({
     ...

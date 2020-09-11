@@ -10,7 +10,7 @@ Router must be registered as a plugin to the module first before we can use it.
 Here's an example on how to register the router:
 
 ```javascript
-import { Module, Router } from 'maf.js';
+import { Module, Router } from 'vermillion';
 
 const routes = [];              // <------ list of routes
 
@@ -37,7 +37,7 @@ A route is just a javascript object that contains two required properties, `path
 Here's an example on how to create routes
 
 ```javascript
-import { Module, Router } from 'maf.js';
+import { Module, Router } from 'vermillion';
 import SampleComponent from './SampleComponent';
 
 const routes = [                // <------ list of routes

@@ -249,7 +249,7 @@ export default class ChildComponent {
 ## Custom Directives
 
 Custom directive let's us create our own directive that can be used inside our views.
-Directives are classes that inherits the `Directive` class of maf.js framework.
+Directives are classes that inherits the `Directive` class of vermillion framework.
 
 #### Create a directive
 
@@ -257,7 +257,7 @@ Here's an example on how to create a custom directive:
 
 ```javascript
 // ./Color.directive.js
-import { Directive } from 'maf.js';
+import { Directive } from 'vermillion';
 
 export default class Color extends Directive {
     constructor(props) {
@@ -289,7 +289,7 @@ Directive needs to be registered in the module before we can use it.
 Here's an example on how to register a directive:
 
 ```javascript
-import { Module } from 'maf.js';
+import { Module } from 'vermillion';
 import Color from './Color.directive';
 
 const module = new Module({
